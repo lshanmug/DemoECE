@@ -13,7 +13,7 @@ public class ButtonExample {
 		Display display = new Display();
 		Shell shell = new Shell(display);
 		shell.setLayout(new GridLayout(1, false));
-		shell.setText("Button Example");
+		shell.setText("Buttons");
 		
 		Group group = new Group(shell, SWT.NONE);
 		group.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
