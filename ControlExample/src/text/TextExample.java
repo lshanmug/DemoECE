@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	Group group = new Group(shell, SWT.NONE);
 	group.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 	group.setLayout(new GridLayout(1, false));
-	group.setText("Text types");
+	group.setText("Text group");
 	
 	Text text = new Text(group, SWT.SINGLE | SWT.LEAD | SWT.BORDER);
 	text.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
