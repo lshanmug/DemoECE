@@ -20,7 +20,7 @@ public class ButtonExample {
 		Group group = new Group(shell, SWT.NONE);
 		group.setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, false));
 		group.setLayout(new GridLayout(1, false));
-		group.setText("Buttons");
+		group.setText("Button types");
 		
 		Button button = new Button(group, SWT.PUSH);
 		button.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
