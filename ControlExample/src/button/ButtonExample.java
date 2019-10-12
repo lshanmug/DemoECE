@@ -30,6 +30,10 @@ public class ButtonExample {
 		button2.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
 		button2.setText("Check Button");
 		
+		Button button3 = new Button(group, SWT.RADIO);
+		button3.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
+		button3.setText("Radio button");
+		
 		shell.pack();
 		shell.open();
 		while (!shell.isDisposed()) {
