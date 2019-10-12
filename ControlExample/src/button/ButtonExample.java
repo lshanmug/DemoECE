@@ -1,6 +1,8 @@
 package button;
 
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.SelectionAdapter;
+import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
@@ -23,6 +25,10 @@ public class ButtonExample {
 		Button button = new Button(group, SWT.PUSH);
 		button.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
 		button.setText("Push Button");
+		
+		Button button2 = new Button(group, SWT.CHECK);
+		button2.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
+		button2.setText("Check Button");
 		
 		shell.pack();
 		shell.open();
