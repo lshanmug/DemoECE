@@ -34,7 +34,7 @@ public class ButtonExample {
 		
 		Button button33 = new Button(group, SWT.RADIO);
 		button33.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
-		button33.setText("Radio button");
+		button33.setText("Radio button1");
 		
 		Button button4 = new Button(group, SWT.TOGGLE);
 		button4.setLayoutData(new GridData(SWT.BEGINNING, SWT.CENTER, false, false));
