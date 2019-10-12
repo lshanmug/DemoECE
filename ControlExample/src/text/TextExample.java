@@ -23,6 +23,11 @@ public static void main(String[] args) {
 	text.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
 	text.setText("Single Text field");
 	
+	Text text2 = new Text(group, SWT.MULTI | SWT.LEAD | SWT.BORDER);
+	text2.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false));
+	text2.setText("multi text field");
+	
+	
 	shell.pack();
 	shell.open();
 	while (!shell.isDisposed()) {
